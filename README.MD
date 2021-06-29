@@ -20,3 +20,12 @@ Hapus tanda ; (titik koma) pada bagian extension yang akan diaktifkan
 - Extrak file zip Codeigniter ke direktori htdocs/lab11_php_ci
 - Ubah nama direktory framework-4.x.xx menjadi ci4.
 - Buka browser dengan alamat http://localhost/lab11_php_ci/ci4/public/
+# Praktikum 13 - Pemrograman Web (Framework Lanjutan - Modul Login)
+~~~
+subkhan fadilah
+311910410
+TI.19.A.2
+~~~
+# laporan praktikum
+# persiapan
+Pastikan MySQL server sudah berjalan dan buat sebuah tabel 
