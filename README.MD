@@ -52,3 +52,11 @@ TI.19.A.2
 # laporan praktikum
 # persiapan
 Pastikan MySQL server sudah berjalan dan buat sebuah tabel 
+# Langkah 1 - Membuat Model User
+Buat file baru pada direktori app/Models dengan nama UserModel.php untuk memproses data login.
+# Langkah 2 - Membuat Controller User
+Buat Controller baru dengan nama User.php pada direktori app/Controllers. Kemudian tambahkan method index()untuk menampilkan daftar user, dan method login() untuk proses login.
+# Langkah 3 - Membuat View Login
+Buat direktori baru dengan nama user pada direktori app/views, kemudian buat file baru dengan nama login.php.
+# Langkah 4 - Membuat Database Seeder
+Untuk keperluan ujicoba modul login, kita perlu memasukkan data user dan password ke dalam database. Untuk itu buat database seeder untuk tabel user. Buka CLI, kemudian tulis perintah berikut: ```php spark make:seeder UserSeeder```
