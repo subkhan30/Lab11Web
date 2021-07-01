@@ -20,6 +20,29 @@ Hapus tanda ; (titik koma) pada bagian extension yang akan diaktifkan
 - Extrak file zip Codeigniter ke direktori htdocs/lab11_php_ci
 - Ubah nama direktory framework-4.x.xx menjadi ci4.
 - Buka browser dengan alamat http://localhost/lab11_php_ci/ci4/public/
+# Praktikum 12 - Pemrograman Web (Framework Lanjutan - CRUD)
+~~~
+Subkhan Fadilah
+311910410
+TI.19.A.2
+~~~
+# laporan praktikum
+# Persiapan
+Pastikan MySQL server sudah berjalan dan buat sebuah database
+# Langkah 1 - Konfigurasi Database
+Membuat konfigurasi hubungan ke database server dengan menggunakan file ```.env```
+# Langkah 2 - Membuat Model
+Buat file baru pada direktori /app/Models dengan nama ArtikelModel.php
+# Langkah 3 - Membuat Controller
+Buat Controller baru dengan nama Artikel.php pada direktori /app/Controllers
+# Langkah 4 - Membuat View
+Buat direktori baru dengan nama artikel pada direktori /app/Views, kemudian buat file baru dengan nama index.php
+# Langkah 5 - Membuat Tampilan Detail Artikel
+Tampilan pada saat judul berita di klik maka akan diarahkan ke halaman yang berbeda. Tambahkan sebuah fungsi baru pada Controller Artikel (/app/Controllers/Artikel.php) dengan nama view()
+# Pertanyaan dan Tugas
+Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi
+# Jawab
+Saya telah menyelesaikan program diatas agar dapat berjalan dengan semestinya. Seperti membuat file admin_header.php dan admin_footer.php serta CSSnya
 # Praktikum 13 - Pemrograman Web (Framework Lanjutan - Modul Login)
 ~~~
 subkhan fadilah
