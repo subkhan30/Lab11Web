@@ -60,3 +60,20 @@ Buat Controller baru dengan nama User.php pada direktori app/Controllers. Kemudi
 Buat direktori baru dengan nama user pada direktori app/views, kemudian buat file baru dengan nama login.php.
 # Langkah 4 - Membuat Database Seeder
 Untuk keperluan ujicoba modul login, kita perlu memasukkan data user dan password ke dalam database. Untuk itu buat database seeder untuk tabel user. Buka CLI, kemudian tulis perintah berikut: ```php spark make:seeder UserSeeder```
+# Praktikum 14 - Pemrograman Web (Pagination dan Pencarian)
+~~~
+subkhan fadilah
+311910410
+TI.19.A2
+~~~
+# Laporan Praktikum
+# Langkah 1 - Membuat Pagination
+Pagination digunakan untuk membatasi tampilan data pada sebuah halaman menjadi beberapa halaman tergantung banyaknya data yang akan ditampilkan.
+# Langkah 2 - Membuat Pencarian
+Pencarian data digunakan untuk memfilter data.
+Untuk membuat pencarian data, buka kembali Controller Artikel, pada method admin_index
+# Langkah 3 - Membuat Upload Gambar
+Menambahkan fungsi unggah gambar pada tambah artikel.
+Buka kembali Controller Artikel
+Kemudian pada file views/artikel/form_add.php tambahkan field input file serta sesuaikan tag form dengan menambahkan ecrypt type
+
